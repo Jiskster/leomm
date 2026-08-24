@@ -302,3 +302,11 @@ rawset(_G, "AngleDiff", function(a, b)
 	if (d > 0x7FFFFFFF) then d = 0xFFFFFFFF - d end
     return d
 end)
+
+--Is angle (x) between a and b?
+rawset(_G, "AngleInRange", function(x, a, b)
+	local result
+    if (a <= b) then result = (x >= a and x <= b)
+    else result = (x >= a or x <= b) end
+    return result
+end)

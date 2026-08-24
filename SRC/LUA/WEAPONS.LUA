@@ -171,7 +171,7 @@ addHook("PlayerThink", function(p) --this whole hook is a port of P_DoFiring() f
 		return
 	end
 	if (p.pflags & PF_ATTACKDOWN) or (p.climbing) or (p.mm.weapondelay) or (not prole) or (p.playerstate == PST_DEAD)
-	or (p.spectator) or (not prole) or (AimbotCheck(p)) then
+	or (p.spectator) or (not prole) then
 		return
 	end
 
