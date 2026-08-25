@@ -206,6 +206,8 @@ end
 -- This logic could be much more simple if "TouchSpecial" hook was used, but for some reason
 -- it executes twice per tic for me so I am forced to do more complicated things
 addHook("MobjThinker", function(mo)
+	if (gametype ~= GT_LTMMURDERMYSTERY) then return end
+
 	searchBlockmap("objects", function(ref, found)
 		if (ref == found) then return end --ignore itself
 
