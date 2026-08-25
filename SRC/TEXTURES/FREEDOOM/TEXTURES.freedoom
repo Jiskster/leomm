@@ -2571,11 +2571,6 @@ WallTexture "CEILVINE", 128, 128
 	Patch "CEILVINE", 0, 0
 }
 
-WallTexture "CGRATE1", 128, 128
-{
-	Patch "CGRATE1", 0, 0
-}
-
 WallTexture "ESPITAN1", 64, 128
 {
 	Patch "ESPI12_4", 0, 0

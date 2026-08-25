@@ -105,22 +105,8 @@ Weather = 1
 NoZone = True
 SelectHeading = LTM's Murder Mystery
 TypeOfLevel = LTM_MM,Match,Tag
-NextLevel = KC
-Lua.Author = LeonardoTheMutant, MinusMario
-
-Level KC
-LevelName = Midwich Elementary
-SubTitle = Under Construction
-SelectHeading = LTM's Murder Mystery
-Music = MAPKCM
-SkyNum = 6
-Weather = 2
-NoZone = True
-TypeOfLevel = LTM_MM,Match,Tag
 NextLevel = KD
-Lua.MM_ShowdownTrack = DIE
-Lua.MM_SuspenseTrack = NIMARE
-Lua.Author = Team Silent, Konami, LeonardoTheMutant, MinusMario
+Lua.Author = LeonardoTheMutant, MinusMario
 
 Level KD
 LevelName = East City
